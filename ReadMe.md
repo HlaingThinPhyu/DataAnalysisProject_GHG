@@ -12,7 +12,7 @@ Through data cleaning, visualization, and quantitative analysis using Python, we
 
 
 
-**Tools and Technology Used** 
+##Tools and Technology Used
 
 As our data analysis will be using python, we have made sure we have the required Python libraries installed. 
 
@@ -26,7 +26,7 @@ scikit learn: Machine learning models: Linear Regression, Decision Tree, Random 
 
 ## Methodology
 
-1\. ** Data Preprocessing **
+1\. **Data Preprocessing**
 
 Source: Ontario GHG Reporting dataset (2010–2021) 
 
@@ -36,7 +36,7 @@ Source: Ontario GHG Reporting dataset (2010–2021)
 
 ● Filled missing or zero values where appropriate. 
 
-2\. ** Exploratory Data Analysis  **
+2\. **Exploratory Data Analysis**
 
 ● Basic data info and descriptive statistics were printed to understand the structure. 
 
@@ -46,13 +46,13 @@ Source: Ontario GHG Reporting dataset (2010–2021)
 
 ● Trends of individual gases (e.g., CO₂, CH₄, N₂O) across the years were analyzed. 
 
-3\. ** Data Visualization  **
+3\. **Data Visualization**
 
 ● Line plots and bar charts were used to show GHG emission trends. 
 
 ● Seaborn and Matplotlib were utilized for informative visuals. 
 
-4\. ** Machine Learning Models **
+4\. **Machine Learning Models**
 
 To project greenhouse gas (GHG) emissions from 2022 to 2027, we employed three machine learning regression models: 
 
@@ -66,7 +66,7 @@ Each model was trained on historical yearly data (2010–2021), and predictions 
 
 
 
-**References** 
+##References##
 
 ● https://data.ontario.ca/dataset/greenhouse-gas-emissions-reporting-by-facility 
 
