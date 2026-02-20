@@ -1,8 +1,7 @@
 # Ontario Greenhouse gas emissions analysis
 ## Introduction
-This project investigates the greenhouse gas emissions in Ontario from 2010 to 2021, using a publicly available dataset that records facility-level emissions reported under provincial 
+This project investigates the greenhouse gas emissions in Ontario from 2010 to 2021, using a publicly available dataset that records facility-level emissions reported under provincial requirements. 
 
-requirements. 
 ## Dataset
 The dataset includes detailed emissions data categorized by gas types—such as carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O)—as well as information on reporting and verification bodies, industries, geographic locations, and facility owners. The dataset spans from 2010 to 2021 and includes detailed information on total emissions, gas-specific emissions (such as CO₂, CH₄, N₂O, SF₆, HFCs, PFCs, NF₃), verification details, facility locations, and industrial classification codes (NAICS). Facilities that emit 10,000 tonnes or more of CO₂ equivalent (CO₂e) per year are required to report their emissions, and those emitting 25,000 tonnes or more must have their reports verified by accredited third-party organizations. 
 
@@ -12,10 +11,8 @@ Through data cleaning, visualization, and quantitative analysis using Python, we
 
 
 
-##Tools and Technology Used
-
-As our data analysis will be using python, we have made sure we have the required Python libraries installed. 
-
+## Tools and Technology Used
+Python
 pandas: Handling, loading and processing the dataset. 
 
 numpy: Working with numerical data. 
