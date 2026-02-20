@@ -1,42 +1,20 @@
 # Ontario Greenhouse gas emissions analysis
 ## Introduction
-This project investigates the greenhouse gas emissions in Ontario from 2010 to 2021, using a 
-
-publicly available dataset that records facility-level emissions reported under provincial 
+This project investigates the greenhouse gas emissions in Ontario from 2010 to 2021, using a publicly available dataset that records facility-level emissions reported under provincial 
 
 requirements. 
 ## Dataset
-The dataset includes detailed emissions data categorized by gas types—such as 
-
-carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O)—as well as information on 
-
-reporting and verification bodies, industries, geographic locations, and facility owners. The dataset spans from 2010 to 2021 and includes detailed information on total emissions, gas-
-
-specific emissions (such as CO₂, CH₄, N₂O, SF₆, HFCs, PFCs, NF₃), verification details, facility 
-
-locations, and industrial classification codes (NAICS). Facilities that emit 10,000 tonnes or more 
-
-of CO₂ equivalent (CO₂e) per year are required to report their emissions, and those emitting 
-
-25,000 tonnes or more must have their reports verified by accredited third-party organizations. 
+The dataset includes detailed emissions data categorized by gas types—such as carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O)—as well as information on reporting and verification bodies, industries, geographic locations, and facility owners. The dataset spans from 2010 to 2021 and includes detailed information on total emissions, gas-specific emissions (such as CO₂, CH₄, N₂O, SF₆, HFCs, PFCs, NF₃), verification details, facility locations, and industrial classification codes (NAICS). Facilities that emit 10,000 tonnes or more of CO₂ equivalent (CO₂e) per year are required to report their emissions, and those emitting 25,000 tonnes or more must have their reports verified by accredited third-party organizations. 
 
 ## Objective
 
-Through data cleaning, visualization, and quantitative analysis using Python, we aim to identify 
-
-emission trends, major polluters, and sector-specific impacts. This helps to better understand the 
-
-social and economic implications of GHG emissions, and informs policies that balance 
-
-environmental sustainability with industrial and economic development.
+Through data cleaning, visualization, and quantitative analysis using Python, we aim to identify emission trends, major polluters, and sector-specific impacts. This helps to better understand the social and economic implications of GHG emissions, and informs policies that balance environmental sustainability with industrial and economic development.
 
 
 
 **Tools and Technology Used** 
 
-As our data analysis will be using python, we have made sure we have the required Python 
-
-libraries installed. 
+As our data analysis will be using python, we have made sure we have the required Python libraries installed. 
 
 pandas: Handling, loading and processing the dataset. 
 
@@ -44,9 +22,7 @@ numpy: Working with numerical data.
 
 matplotlib \& seaborn: Data visualization. 
 
-scikit learn: Machine learning models: Linear Regression, Decision Tree, Random Forest for 
-
-forecasting 
+scikit learn: Machine learning models: Linear Regression, Decision Tree, Random Forest for forecasting 
 
 ## Methodology
 
@@ -78,21 +54,15 @@ Source: Ontario GHG Reporting dataset (2010–2021)
 
 4\. ** Machine Learning Models **
 
-To project greenhouse gas (GHG) emissions from 2022 to 2027, we employed three machine 
-
-learning regression models: 
+To project greenhouse gas (GHG) emissions from 2022 to 2027, we employed three machine learning regression models: 
 
 Linear Regression: Assumes emissions change at a constant rate over time.
 
 Decision Tree Regressor: Captures non-linear patterns using recursive binary splits. 
 
-Random Forest Regressor: An ensemble method using multiple decision trees to improve 
+Random Forest Regressor: An ensemble method using multiple decision trees to improve prediction robustness. 
 
-prediction robustness. 
-
-Each model was trained on historical yearly data (2010–2021), and predictions were made for 
-
-future years using the trained models. 
+Each model was trained on historical yearly data (2010–2021), and predictions were made for future years using the trained models. 
 
 
 
